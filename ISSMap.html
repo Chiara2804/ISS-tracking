@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+
+
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="style-ISSMap.css">
+    <link rel="stylesheet" href="req.css">
+
+    <!--LIBRARIES-->
+    <script src="../script/libs/mappingSpaceDebris/worldwind.min.js" type="text/javascript"></script>
+
+    <title>ISS Map</title>
+</head>
+
+<body>
+
+    <div>
+        <div id="map-div"></div>
+
+        <!-- Details about ISS -->
+        <div id="details">
+            <!-- Time -->
+            <div>
+                Time:
+                <span class="time"></span>
+            </div>
+            <!-- Latitude -->
+            <div>
+                Lat:
+                <span class="latitude"></span>
+            </div>
+            <!-- Longitude -->
+            <div>
+                Long:
+                <span class="longitude"></span>
+            </div>
+            <!-- Speed -->
+            <div>
+                Speed:
+                <span class="speed"></span>
+            </div>
+            <!-- Altitude -->
+            <div>
+                Altitude:
+                <span class="altitude"></span>
+            </div>
+            <!-- Visibility -->
+            <div>
+                Visibility:
+                <span class="visibility"></span>
+            </div>
+        </div>
+    </div>
+
+    <!--Riferimento agli script-->
+    <script src="libs/leaflet/leaflet.js"></script>
+    <script src="script-ISSCurrentPosition.js" type="text/javascript"></script>
+</body>
+
+</html>
