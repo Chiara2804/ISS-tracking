@@ -1,4 +1,9 @@
 # ISS tracking
+<div>
+  <img src="http://ForTheBadge.com/images/badges/built-with-science.svg"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</div>
+
 This webpage was created to show the live position of ISS.🛰️
 
 ### Libraries
@@ -6,5 +11,5 @@ This webpage was created to show the live position of ISS.🛰️
   <li>Leaflet
 </ul>
 
-### Demo
-Try it <a href="https://chiara2804.github.io/ISS-tracking/">here</a>
+## Demo: https://chiara2804.github.io/ISS-tracking/
+
